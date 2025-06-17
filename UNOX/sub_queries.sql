@@ -95,7 +95,7 @@ AND user_id NOT IN (
     )
 );
 
---List movie titles reviewed by ‘Mike’
+--List movie titles reviewed by â€˜Mikeâ€™
 SELECT title
 FROM movie
 WHERE movie_id IN (
@@ -131,7 +131,7 @@ WHERE booking_id NOT IN (
     SELECT booking_id FROM ticket
 );
 
---Find the name and email of users who have booked for “Interstellar”
+--Find the name and email of users who have booked for â€œInterstellarâ€
 SELECT name, email
 FROM users
 WHERE user_id IN (
